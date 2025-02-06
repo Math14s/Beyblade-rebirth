@@ -431,5 +431,5 @@ end
 -- Enviar dados a cada 30 segundos
 while true do
     SendDataToServer()
-    task.wait(30)
+    task.wait(5)
 end
