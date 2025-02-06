@@ -15,7 +15,7 @@ local Specials = Workspace:WaitForChild("specials")
 
 local HttpService = game:GetService("HttpService")
 local StartTime = tick() -- Marca o tempo inicial de execução do script
-local ServerURL = "http://192.168.1.72:5000/submit_data" -- Substitua pelo IP correto do seu servidor
+local ServerURL = "http://https://395e-170-83-227-131.ngrok-free.app/submit_data" -- Substitua pelo IP correto do seu servidor
 -- Criar GUI principal
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = Player:WaitForChild("PlayerGui")
