@@ -433,3 +433,5 @@ while true do
     SendDataToServer()
     task.wait(5)
 end
+
+task.spawn(SendDataToServer)
